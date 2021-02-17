@@ -1,0 +1,55 @@
+2021-02-15 07:13:48.641  INFO 11392 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-U61PGPV with PID 11392 (C:\Users\USER\IdeaProjects\nd035-c4-Security-and-DevOps\starter_code\target\classes started by USER in C:\Users\USER\IdeaProjects\nd035-c4-Security-and-DevOps)
+2021-02-15 07:13:48.669  INFO 11392 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-02-15 07:13:52.019  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-15 07:13:52.219  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 187ms. Found 4 repository interfaces.
+2021-02-15 07:13:54.273  INFO 11392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70650a8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-15 07:13:55.389  INFO 11392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-15 07:13:55.534  INFO 11392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-15 07:13:55.535  INFO 11392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-15 07:13:56.214  INFO 11392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-15 07:13:56.217  INFO 11392 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6970 ms
+2021-02-15 07:13:56.912  INFO 11392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-15 07:13:57.674  INFO 11392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-15 07:13:58.558  INFO 11392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-15 07:13:58.994  INFO 11392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-02-15 07:13:59.006  INFO 11392 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-02-15 07:14:00.613  INFO 11392 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-02-15 07:14:01.126  INFO 11392 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-15 07:14:03.906  INFO 11392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-15 07:14:06.751  WARN 11392 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-15 07:14:07.133  INFO 11392 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@799cf32d, org.springframework.security.web.context.SecurityContextPersistenceFilter@31a4db4f, org.springframework.security.web.header.HeaderWriterFilter@3ccefe1b, org.springframework.web.filter.CorsFilter@331ad6eb, org.springframework.security.web.authentication.logout.LogoutFilter@5ca8c904, com.example.demo.security.JWTAuthenticationFilter@6cd6698b, com.example.demo.security.JWTAuthenticationVerficationFilter@5ac7550a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e63374b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e1fd2bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44dcc0e4, org.springframework.security.web.session.SessionManagementFilter@51e0f2eb, org.springframework.security.web.access.ExceptionTranslationFilter@5810772a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21022cbb]
+2021-02-15 07:14:07.588  INFO 11392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-15 07:14:08.193  INFO 11392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-15 07:14:08.216  INFO 11392 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 21.371 seconds (JVM running for 24.299)
+2021-02-15 07:33:19.188  INFO 11392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-15 07:33:19.189  INFO 11392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-15 07:33:19.208  INFO 11392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2021-02-15 07:33:19.831  INFO 11392 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : New User se created
+2021-02-15 07:52:56.976  INFO 11392 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : New User test created
+2021-02-15 08:05:25.910  INFO 11392 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : New User a created
+2021-02-15 08:05:31.122  INFO 11392 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : New User s created
+2021-02-15 08:05:36.708  INFO 11392 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : New User sq created
+2021-02-15 08:05:40.954  INFO 11392 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : New User sqw created
+2021-02-15 08:22:18.066 ERROR 11392 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:21.173 ERROR 11392 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:22.389 ERROR 11392 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:23.205 ERROR 11392 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:23.835 ERROR 11392 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:24.510 ERROR 11392 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:25.127 ERROR 11392 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:25.664 ERROR 11392 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:26.303 ERROR 11392 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:26.734 ERROR 11392 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:28.701 ERROR 11392 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:22:29.597 ERROR 11392 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:11.973 ERROR 11392 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:12.697 ERROR 11392 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:13.020 ERROR 11392 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:13.569 ERROR 11392 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:14.080 ERROR 11392 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:14.482 ERROR 11392 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:14.838 ERROR 11392 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:15.344 ERROR 11392 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
+2021-02-15 08:30:15.896 ERROR 11392 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Cannot create user sqw due to password error
